@@ -5,7 +5,7 @@ import ThriftHoverProvider from './HoverProvider';
 import ThriftCompletionItemProvider from './CompletionProvider';
 
 export function activate(context: ExtensionContext) {
-  const langMode: DocumentFilter = { scheme: 'file', language: 'thrift' };
+  const langMode: DocumentFilter = { scheme: 'file', language: 'frugal' };
   console.log('Congratulations, your extension "thrift-syntax-support" is now active!');
   context.subscriptions.push(
     languages.registerDefinitionProvider(
